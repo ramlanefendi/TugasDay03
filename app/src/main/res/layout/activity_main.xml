@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <!-- Layout untuk item pertama -->
+        <TextView
+            android:id="@+id/tvtitle"
+            android:text="@string/title"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/Aqua"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/namalain"
+            android:text="NAMA ORANG PERTAMA"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/ivprofile"
+            android:layout_width="157dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/lm10" />
+        <TextView
+            android:id="@+id/tvnama"
+            android:text="Nama Anda"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvumur"
+            android:text="Umur Anda "
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:text="Alamat anda"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btndetail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Detail"
+            android:layout_centerInParent="true"
+            android:onClick="showImageDetail" />
+
+        <!-- Layout untuk item kedua -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Item Pertama -->
+            <TextView
+                android:id="@+id/tvtitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/title"
+                android:textAlignment="center"
+                android:textColor="@color/Aqua"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvtitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="NAMA ORANG KEDUA"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/ivprofile2"
+                android:layout_width="157dp"
+                android:layout_height="146dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/messi" />
+
+            <TextView
+                android:id="@+id/tvnama1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Nama Anda"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvumur1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Umur Anda "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvAlamat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Alamat anda"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btndetail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="showImageDetail"
+                android:text="Lihat Detail" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvtitle5"
+            android:text="@string/title4"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/Aqua"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvtitle3"
+            android:text="NAMA ORANG KETIGA"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/ivprofile4"
+            android:layout_width="157dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ronaldo"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/tvnama3"
+            android:text="Nama Anda"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvumur3"
+            android:text="Umur Anda "
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvAlamat3"
+            android:text="Alamat anda"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btndetail3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Detail"
+            android:layout_centerInParent="true"
+            android:onClick="showImageDetail" />
+
+        <!-- Item Keempat -->
+        <TextView
+            android:id="@+id/tvtitle7"
+            android:text="@string/title"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/Aqua"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvtitle4"
+            android:text="NAMA ORANG KEEMPAT"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/ivprofile5"
+            android:layout_width="157dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/neymar"
+            android:contentDescription="TODO" />
+        <TextView
+            android:id="@+id/tvnama4"
+            android:text="Nama Anda"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvumur4"
+            android:text="Umur Anda "
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvAlamat4"
+            android:text="Alamat anda"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btndetail4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Detail"
+            android:layout_centerInParent="true"
+            android:onClick="showImageDetail" />
+
+        <!-- Item Kelima -->
+        <TextView
+            android:id="@+id/tvtitle9"
+            android:text="@string/title"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/Aqua"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvtitle6"
+            android:text="NAMA ORANG KELIMA"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/ivprofile6"
+            android:layout_width="157dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/mbappe"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/tvnama5"
+            android:text="Nama Anda"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvumur5"
+            android:text="Umur Anda "
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvAlamat5"
+            android:text="Alamat anda"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btndetail5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Detail"
+            android:layout_centerInParent="true"
+            android:onClick="showImageDetail" />
+    </LinearLayout>
+</ScrollView>
